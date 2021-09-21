@@ -17,3 +17,8 @@ Utilizing CSS style and it's animation powers a single div got styled into a hea
 Digital clock project done with HTML ,CSS and Javascript
 
 This project brings to lime light how javascript Date function works
+
+
+## Analog Clock
+
+An analog clock with dark mode feature
