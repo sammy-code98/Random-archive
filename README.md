@@ -11,3 +11,9 @@ This is a simple design of a service/product pricing plan consisting of the free
 This is a simple project built with just HTML and CSS.
 
 Utilizing CSS style and it's animation powers a single div got styled into a heart and pumps like your heart  😸 😸 😸 😸
+
+## Digital Clock
+
+Digital clock project done with HTML ,CSS and Javascript
+
+This project brings to lime light how javascript Date function works
