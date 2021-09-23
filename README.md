@@ -22,3 +22,12 @@ This project brings to lime light how javascript Date function works
 ## Analog Clock
 
 An analog clock with dark mode feature
+
+## Hover Board
+
+
+simple project that generates random colors when you hover on the boxes
+
+## Wave
+
+Simple project that produces a ripple like effect when you click on a dot
