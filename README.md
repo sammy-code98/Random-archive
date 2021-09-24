@@ -31,3 +31,7 @@ simple project that generates random colors when you hover on the boxes
 ## Wave
 
 Simple project that produces a ripple like effect when you click on a dot
+
+## Disco Box
+
+A simple project that utilises CSS animation and @Keyframe feature to display different colors at different time interval , displaying these colors in form of light
