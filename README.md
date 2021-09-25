@@ -40,3 +40,8 @@ A simple project that utilises CSS animation and @Keyframe feature to display di
 ## Text Gif
 
 Just a crazy gif
+
+
+## Spinners
+
+Just a random collection of spinners and loaders 
