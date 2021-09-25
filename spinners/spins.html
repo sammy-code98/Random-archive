@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>spinner idiot</title>
+    <style>
+        body{
+            background-color: #334;
+            margin-left: 40%;
+            margin-top: 30px;
+        }
+        p{
+            color: #fff;
+            font: 30px;
+            font-family: cursive;
+        }
+    .spinner1{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border-width: 3px;
+        border-style: solid;
+        border-color: #fff transparent transparent transparent;
+        animation: spinner1 1s linear infinite
+
+    }
+    @keyframes spinner1{
+        0%{
+            transform: rotate(0deg);
+
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    
+    .spinner2{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border-width: 3px;
+        border-style: solid;
+        border-color: #fff transparent #fff transparent;
+        animation: spinner2 1s linear infinite;
+    }
+    @keyframes spinner2{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    .spinner3{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border-width: 3px;
+        border-style: solid;
+        border-color: #fff transparent #fff transparent;
+        animation: spinner3 1s linear infinite;
+    }
+    @keyframes spinner3{
+        0%{
+            transform:  rotate(0deg) scale(1);
+        }
+        50%{
+            transform: rotate(180deg) scale(0.5);
+        }
+        100%{
+            transform: rotate(360deg) scale(1);
+        }
+    }
+    .spinner4{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border-width: 3px;
+        border-style: solid;
+        border-color: #fff transparent #fff transparent;
+        animation: spinner4 1s linear infinite;
+    }
+    @keyframes spinner4{
+        0%{
+            transform: rotate(0deg);
+        }
+        20%{
+            transform: rotate(150deg);
+        }
+        80%{
+            transform: rotate(210deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    .b-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 60px;
+        flex-direction: row;
+    }
+    .b-container .ball{
+        background-color: #fff;
+        border-radius: 50%;
+        display: block;
+        width: 15px;
+        height: 15px;
+        animation: jump 0.7s ease-in-out infinite;
+    }
+    .b-container .ball:nth-child(2){
+        animation-delay: 0.15s;
+    }
+    .b-container .ball:nth-child(3){
+        animation-delay: 0.3s;
+    }
+    @keyframes jump{
+        0%,
+        100%{
+            transform: translateY(0);
+        }
+        50%{
+            transform: translateY(-20px);
+        }
+    }
+    .bar-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 40px;
+        flex-direction: row;
+
+    }
+    .bar{
+     background-color: #fff;
+     height: 50px;
+     width: 10px;
+     display: block;
+     animation: increase 1s ease-in-out infinite;
+    }
+    .bar:nth-child(2){
+        animation-delay: 0.25s;
+    }
+    .bar:nth-child(3){
+        animation-delay: 0.5s;
+    }
+    @keyframes increase{
+        0%,
+        100%{
+            transform: scaleY(1);
+        }
+        50%{
+            transform: scaleY(0.6);
+        }
+    }
+    </style>
+</head>
+<body>
+    <h1>Just Spinners</h1>
+    <div class="spinner1"></div>
+    <br>
+    <p>spinner with single border</p>
+    <div class="spinner2"></div>
+    <br>
+    <p>spinner with double border</p>
+    <div class="spinner3"></div>
+    <br>
+    <p>scaled spinner</p>
+    <div class="spinner4"></div>
+    <br>
+    <p>lazy spinner</p>
+
+    <div class="b-container">
+        <span class="ball"></span>
+        <span class="ball"></span>
+        <span class="ball"></span>
+    </div>
+    <br>
+    <p>jumping balls</p>
+
+    <div class="bar-container">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+    <br>
+    <p>jumping rectangles</p>
+</body>
+</html>

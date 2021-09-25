@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>loading bar animation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: #262626;
+        }
+        ul{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        ul li{
+            list-style: none;
+            width: 40px;
+            height: 40px;
+            background: #fff;
+            border-radius:50%;
+            animation:bar_loader 1.6s ease-in-out infinite;
+        }
+        @keyframes bar_loader{
+            0%,40%,100%{
+                transform: scale(0.2);
+            }
+            20%{
+                transform: scale(1);
+            }
+        }
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+    </style>
+</head>
+<body>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    
+
+</body>
+</html>
