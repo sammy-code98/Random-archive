@@ -45,3 +45,8 @@ Just a crazy gif
 ## Spinners
 
 Just a random collection of spinners and loaders 
+
+## Text Animation
+
+Fancy CSS text animation
+
