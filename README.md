@@ -54,3 +54,8 @@ Fancy CSS text animation
 ## Drag and Drop
 
 drag and drop project
+
+
+## Testimonial Project
+
+A simple display of a testimonial section built with HTML,CSS and JAVASCRIPT
